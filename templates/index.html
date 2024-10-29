@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Detection System</title>
+</head>
+<body>
+    <h1>Welcome to the Diabetes Detection System</h1>
+    <form method="POST">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required><br>
+
+        <label for="bmi">BMI:</label>
+        <input type="number" name="bmi" id="bmi" required><br>
+
+        <label for="family_history">Family History of Diabetes:</label>
+        <select name="family_history" id="family_history" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br>
+
+        <label for="increased_thirst">Increased Thirst:</label>
+        <select name="increased_thirst" id="increased_thirst" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br>
+
+        <label for="frequent_urination">Frequent Urination:</label>
+        <select name="frequent_urination" id="frequent_urination" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
